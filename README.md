@@ -77,14 +77,7 @@ The dataset contains detailed records of natural disaster events, primarily focu
 
 ---
 
-## 🚀 How to Use
 
-1. Download the `.pbix` file from this repository.
-2. Open it using Power BI Desktop.
-3. Use slicers to filter by country, risk zone, and year.
-4. Analyze monthly and yearly trends.
-
----
 
 ## 📈 Future Enhancements
 
