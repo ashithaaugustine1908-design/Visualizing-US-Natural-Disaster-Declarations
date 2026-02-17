@@ -71,6 +71,9 @@ The dataset contains detailed records of natural disaster events, primarily focu
 </p>
 
 ---
+<p align="center">
+  <img src="SCREENSHOTS/dashboard 2.png" width="900">
+</p>
 
 ---
 
