@@ -1,4 +1,4 @@
-# 📊Visualization of US Natural Disaster Declaration
+# Visualization of US Natural Disaster Declaration
 ## 📌 Project Overview
 This project analyzes global landslide incidents from **2007–2017** to identify patterns, risk zones, fatalities, and country-wise trends.  
 The interactive dashboard helps in understanding disaster distribution, severity, and seasonal trends.
