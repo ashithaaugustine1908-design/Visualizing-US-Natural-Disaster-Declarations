@@ -1,4 +1,8 @@
-# 📊Visualization of US Natural Disaster Declaration 
+# 📊Visualization of US Natural Disaster Declaration
+## 📌 Project Overview
+This project analyzes global landslide incidents from **2007–2017** to identify patterns, risk zones, fatalities, and country-wise trends.  
+The interactive dashboard helps in understanding disaster distribution, severity, and seasonal trends.
+
 ## 🔎 Problem Statement
 * U.S. natural disaster declaration data is available in large, unstructured formats that are difficult to interpret.
 * Identifying disaster trends and high-risk regions from raw data requires extensive manual analysis.
@@ -19,9 +23,64 @@ The dataset contains detailed records of natural disaster events, primarily focu
 * Contains 31 columns capturing detailed event and location attributes.
 * Covers events from multiple countries including the United States, Philippines, Nepal, China, and Peru.
 * Useful for trend analysis, geographic mapping, risk assessment, and disaster visualization dashboards
+ 
+## 🧮 Key Performance Indicators (KPIs)
 
-## 🧮KPIs 
-## 🖥️Dashboard Pages
-## 💡Key Insights
-## 📝Recomendations
-## 🧰Tools used
+- **Total Events:** 413  
+- **Total Fatalities:** 3,790  
+- **Fatalities per Event:** 9.19  
+- **Highest Risk Zones:** High & Medium Risk Regions  
+- **Most Affected Country:** China  
+
+---
+
+## 🔍 Key Insights
+
+- Landslide occurrences show noticeable seasonal trends in certain regions.
+- High-risk zones contribute significantly to overall fatalities.
+- China recorded a comparatively higher number of landslide events.
+- The fatality-per-event ratio indicates severe impact in vulnerable areas.
+- Recurring peaks are observed in specific months, indicating weather influence.
+
+---
+
+## 📝 Recommendations
+
+- Improve early warning systems in high-risk zones.
+- Strengthen infrastructure in landslide-prone regions.
+- Increase awareness programs in vulnerable communities.
+- Allocate more disaster management resources during high-frequency months.
+- Implement better land-use planning and slope stabilization techniques.
+
+---
+
+## 🧰 Tools Used
+
+- **Power BI** – Data visualization and dashboard creation  
+- **Microsoft Excel** – Data cleaning and preprocessing  
+- **DAX (Data Analysis Expressions)** – KPI calculations and measures  
+- **GitHub** – Project documentation and version control  
+
+---
+
+## 📷 Dashboard Preview
+
+![Dashboard Preview](your-image-link-here)
+
+---
+
+## 🚀 How to Use
+
+1. Download the `.pbix` file from this repository.
+2. Open it using Power BI Desktop.
+3. Use slicers to filter by country, risk zone, and year.
+4. Analyze monthly and yearly trends.
+
+---
+
+## 📈 Future Enhancements
+
+- Add predictive analysis using historical trends.
+- Integrate real-time disaster datasets.
+- Expand analysis to include economic loss impact.
+
