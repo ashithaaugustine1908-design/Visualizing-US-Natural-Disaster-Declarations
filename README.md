@@ -98,13 +98,13 @@ The dataset contains **FEMA Disaster Declaration records** including disaster ty
 # 📷 Dashboard Preview
 
 <p align="center">
-  <img src="SCREENSHOTS/dashboard 3.png" width="900">
+  <img src="SCREENSHOTS/dashboard 1.png" width="900">
 </p>
 
 ---
 
 <p align="center">
-  <img src="SCREENSHOTS/dashboard 4.png" width="900">
+  <img src="SCREENSHOTS/dashboard 2.png" width="900">
 </p>
 
 ---
