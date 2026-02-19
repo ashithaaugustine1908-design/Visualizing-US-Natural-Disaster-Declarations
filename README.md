@@ -1,87 +1,121 @@
-# Visualization of US Natural Disaster Declaration
+# Visualization of U.S. Natural Disaster Declarations
+
 ## 📌 Project Overview
-This project analyzes global landslide incidents from **2007–2017** to identify patterns, risk zones, fatalities, and country-wise trends.  
-The interactive dashboard helps in understanding disaster distribution, severity, and seasonal trends.
+This project analyzes **U.S. Natural Disaster Declarations (1953–2025)** to understand disaster patterns across states and identify trends over time.  
+The analysis focuses on identifying high-risk states, major disaster types, and seasonal storm patterns using interactive Power BI dashboards.
 
-## 🔎 Problem Statement
-* U.S. natural disaster declaration data is available in large, unstructured formats that are difficult to interpret.
-* Identifying disaster trends and high-risk regions from raw data requires extensive manual analysis.
-* Lack of clear visualizations limits effective understanding and data-driven decision-making.
-## 📚Data Set Discription
-The dataset contains detailed records of natural disaster events, primarily focusing on landslides, mudslides, and other related incidents globally. It is compiled from multiple sources including news agencies and disaster reporting organizations.
-#### Key features of the dataset include:
-* Source Information: source_name, source_link – origin of the report.
-* Event Details: event_id, event_date, event_time, event_title, event_description – identification and description of each event.
-* Location Data: location_description, location_accuracy, admin_division_name, admin_division_population, country_name, country_code, longitude, latitude – geographic details including administrative division and coordinates.
-* Disaster Characteristics: landslide_category, landslide_trigger, landslide_size, landslide_setting – type, cause, and scale of the disaster.
-* Impact Metrics: fatality_count, injury_count – human impact of the event.
-* Supplementary Data: storm_name, photo_link, notes, event_import_source, event_import_id – additional context and references.
-* Administrative Data: gazeteer_closest_point, gazeteer_distance – nearest reference point and distance.
-* Tracking Information: submitted_date, created_date, last_edited_date – data submission and update timestamps.
+The project includes two dashboards:
 
-####  Dataset Summary:
-* Contains 31 columns capturing detailed event and location attributes.
-* Covers events from multiple countries including the United States, Philippines, Nepal, China, and Peru.
-* Useful for trend analysis, geographic mapping, risk assessment, and disaster visualization dashboards
- 
-## 🧮 Key Performance Indicators (KPIs)
+1. **From Texas to Tennessee – Unveiling U.S. Disaster Patterns**
+2. **U.S. Storm Activity: State and Seasonal Trend**
 
-- **Total Events:** 413  
-- **Total Fatalities:** 3,790  
-- **Fatalities per Event:** 9.19  
-- **Highest Risk Zones:** High & Medium Risk Regions  
-- **Most Affected Country:** China  
+These dashboards help reveal how disasters are distributed across the United States and how storm incidents vary by state and month.
 
 ---
 
-## 🔍 Key Insights
+# 📊 Dashboard 1: From Texas to Tennessee – Unveiling U.S. Disaster Patterns
 
-- Landslide occurrences show noticeable seasonal trends in certain regions.
-- High-risk zones contribute significantly to overall fatalities.
-- China recorded a comparatively higher number of landslide events.
-- The fatality-per-event ratio indicates severe impact in vulnerable areas.
-- Recurring peaks are observed in specific months, indicating weather influence.
+This dashboard provides an **overall analysis of disaster declarations across the United States from 1953 to 2025**.
+
+### KPIs Used
+- **Total Disasters**
+- **Total States**
+- **Total Incident Types**
+- **Total HM Declared**
+- **Data Coverage:** 1953 – 2025
+
+### Visualizations Used
+- Pie Chart – Count of Incident Type by Declaration Type  
+- Table – Incident Type vs Total Disasters  
+- Bar Chart – Total Disasters by State Name  
+- Line Chart – Total Disasters by Year  
+
+### Key Insights
+- **Texas recorded the highest number of disaster declarations** among all states.
+- The most common disaster type observed is **Severe Storm**.
+- Disaster declarations have increased significantly in recent years.
+- **2020 recorded the highest number of disasters (907)** across the United States.
+- Disaster occurrences vary widely across different states and regions.
 
 ---
 
-## 📝 Recommendations
+# 🌩 Dashboard 2: U.S. Storm Activity – State and Seasonal Trend
 
-- Improve early warning systems in high-risk zones.
-- Strengthen infrastructure in landslide-prone regions.
-- Increase awareness programs in vulnerable communities.
-- Allocate more disaster management resources during high-frequency months.
-- Implement better land-use planning and slope stabilization techniques.
+This dashboard focuses specifically on **storm-related disasters** and analyzes their yearly and monthly patterns across states.
+
+### KPIs Used
+- **Total Storm Incidents**
+- **Average Storms per Year**
+- **Total Disasters**
+
+### Visualizations Used
+- Bar Chart – Total Storm Incidents by State Name  
+- Line Chart – Total Storm Incidents by Year  
+- Line Chart – Total Storm Incidents by Month  
+
+### Key Insights
+- Storm incidents occur across almost all U.S. states.
+- There is a **clear seasonal trend** in storm activity.
+- Each state shows a **peak month for storm incidents**.
+- Identifying these peak months helps disaster management teams prepare better.
+- Focusing on high-risk months can reduce the impact of storms.
 
 ---
 
-## 🧰 Tools Used
+# 📚 Dataset Description
+The dataset contains **FEMA Disaster Declaration records** including disaster type, location, declaration information, and assistance programs declared.
 
+### Key Dataset Columns
+- `disaster_number`
+- `state`
+- `incident_type`
+- `declaration_type`
+- `declaration_date`
+- `incident_begin_date`
+- `incident_end_date`
+- `region`
+- `designated_area`
+- `ih_program_declared`
+- `ia_program_declared`
+- `pa_program_declared`
+- `hm_program_declared`
+
+### Dataset Summary
+- Covers disaster records from **1953 to 2025**
+- Includes multiple disaster types such as storms, floods, hurricanes, and severe weather
+- Used for **trend analysis, state comparison, and seasonal disaster analysis**
+
+---
+
+# 🧰 Tools Used
 - **Power BI** – Data visualization and dashboard creation  
-- **Microsoft Excel** – Data cleaning and preprocessing  
-- **DAX (Data Analysis Expressions)** – KPI calculations and measures  
+- **Power Query** – Data cleaning and transformation  
+- **DAX (Data Analysis Expressions)** – KPI calculations  
 - **GitHub** – Project documentation and version control  
 
 ---
 
-
-## 📷Dashboard Preview
+# 📷 Dashboard Preview
 
 <p align="center">
   <img src="SCREENSHOTS/dashboard 3.png" width="900">
 </p>
 
 ---
+
 <p align="center">
   <img src="SCREENSHOTS/dashboard 4.png" width="900">
 </p>
 
 ---
 
+# 📈 Future Enhancements
+- Add predictive disaster trend analysis.
+- Include regional disaster risk scoring.
+- Integrate weather and climate datasets.
+- Expand analysis to economic damage impact.
 
 
-## 📈 Future Enhancements
 
-- Add predictive analysis using historical trends.
-- Integrate real-time disaster datasets.
-- Expand analysis to include economic loss impact.
+
 
